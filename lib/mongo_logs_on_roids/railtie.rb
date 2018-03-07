@@ -6,12 +6,5 @@ module MongoLogsOnRoids
       include MongoLogsOnRoids::ControllerRuntime
     end
 
-    console do |app|
-      Mongo::Logger.logger = Logger.new($stdout)
-      if defined?(Mongoid)
-        config.mongoid.logger = Mongo::Logger.logger
-      end
-    end
-
   end
 end

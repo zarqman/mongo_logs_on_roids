@@ -9,7 +9,6 @@ Makes mongo logs more awesome with:
 * Colorized logging
 * Calculating and displaying total time in mongo (Rails):
   `Completed 200 OK in 13ms (Views: 0.2ms | Mongo: 3.2ms)`
-* Showing mongo logs in console, for faster debugging
 
 
 ## Installation
