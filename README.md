@@ -2,7 +2,7 @@
 
 Better logging for mongodb on Ruby.
 
-Compatible with just the `mongo` gem (v2.1+). Auto-detects Mongoid 5 and Rails and enables appropriate features.
+Compatible with just the `mongo` gem (v2.1+). Auto-detects Mongoid 5-7 and Rails and enables appropriate features.
 
 Makes mongo logs more awesome with:
 

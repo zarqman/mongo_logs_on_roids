@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["thomas morgan"]
   spec.email         = ["tm@iprog.com"]
 
-  spec.summary       = %q{Better logging for mongodb. Compatible w/Mongoid 5, Rails, etc.}
-  spec.description   = %q{Add color, DB time (Rails), etc to your mongo logs. Requires just mongo gem; compatible with Mongoid 5, Rails, etc.}
+  spec.summary       = %q{Better logging for mongodb. Compatible w/Mongoid 5+, Rails, etc.}
+  spec.description   = %q{Add color, DB time (Rails), etc to your mongo logs. Requires just mongo gem; compatible with Mongoid 5-7, Rails, etc.}
   spec.homepage      = "https://github.com/zarqman/mongo_logs_on_roids"
   spec.license       = "MIT"
 
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest"
-  spec.add_development_dependency "mongoid", "~> 5.0"
-  spec.add_development_dependency "rails", ">= 4.2", "< 5.1"
+  spec.add_development_dependency "mongoid", ">= 5.1.1", "< 8"
+  spec.add_development_dependency "rails", ">= 4.2", "< 6"
   spec.add_dependency "mongo", "~> 2.1"
 end
